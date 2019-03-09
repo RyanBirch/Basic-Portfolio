@@ -15,6 +15,7 @@ nav {
     position: fixed;
     top: 0;
     border: 1px solid #ccc;
+    z-index: 2;
 }
 
 
@@ -26,7 +27,7 @@ nav h1 {
     height: 96px;
     line-height: 96px;
     margin-top: 0;
-    margin-left: 9%;
+    margin-left: 8.6%;
     display: inline-block;
     vertical-align: middle;
 }
@@ -104,6 +105,7 @@ input[type="text"], input[type="email"] {
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc
 }
 
 textarea {
@@ -119,6 +121,27 @@ input[type="submit"] {
     width: 100px;
     height: 40px;
     font-size: 15px;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects h4 {
+    font-size: 25px;
+    background-color: #4aaaa5;
+    color: #fff;
+    position: relative;
+    bottom: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+.tile {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 125px 30px 125px;
 }
 
 footer {

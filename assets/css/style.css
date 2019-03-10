@@ -123,19 +123,25 @@ input[type="submit"] {
     font-size: 15px;
 }
 
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: #ffd943;
+}
+
 .projects a {
     text-decoration: none;
 }
 
 .projects h4 {
-    font-size: 25px;
+    font-size: 20px;
     background-color: #4aaaa5;
     color: #fff;
     position: relative;
-    bottom: 95px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    bottom: 90px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     z-index: 1;
+    margin-bottom: -60px;
 }
 
 .tile {
